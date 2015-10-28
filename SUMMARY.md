@@ -3,5 +3,4 @@
 * [Introduction](README.md)
 * [First Chapter](chapter1.md)
    * [Overview](overview.md)
-* REST / JSON API
 
