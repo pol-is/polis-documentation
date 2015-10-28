@@ -1,0 +1,3 @@
+It's good practice to start the conversation off with a few comments for participants to react to, but that doesn't always mean that you want to be a member of the conversation yourself - especially if you are taking both sides of the issue to offer some diversity (recommended). Instead of writing as a participant, you can use the form under ‘seed comments’ in the admin panel to add comments to the conversation without voting on them. This is unlike comments submitted by participants in that they are not associated with an account. All comments submitted by participant in the conversation are scored with an automatic agreed by the participant that submitted the comment.
+
+`pol.is/m/5555555555 >> Comments >> Seed Comments`
