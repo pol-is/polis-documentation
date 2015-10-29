@@ -1,0 +1,1 @@
+things you might do and when... question based on homework at start of class, etc
