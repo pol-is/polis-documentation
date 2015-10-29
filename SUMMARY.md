@@ -12,7 +12,7 @@
     * [Embedding](usage/Embedding.md)
     * [Per User Config](usage/PerUserConfig.md)
     * [Configuration Templates](usage/ConfigurationTemplates.md)
-    * [Tips](usage/Tips.md)
+    * [Best Practices](usage/BestPractices.md)
 * [Visualization](visualization/README.md)
     * [How to Read](visualization/HowToRead.md)
     * [Who Gets Shown](visualization/WhoGetsShown.md)
