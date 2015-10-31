@@ -1,7 +1,6 @@
-Table of Contents
-=======
+# Polis Docs
 
-Read Me
+### Table of Contents
 
-* Introduction
+* [Welcome](welcome/README.md)
   * Overview
