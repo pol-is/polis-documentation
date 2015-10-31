@@ -21,6 +21,6 @@
 * [Data](data/README.md)
    * [What We Collect](data/WhatWeCollect.md)
    * [How To Use It](data/HowToUse.md)
-   * [Analytics On Conversations](data/Analytics.md)
+   * [Conversation Analytics](data/Analytics.md)
    * [Data Export](data/Export.md)
 
