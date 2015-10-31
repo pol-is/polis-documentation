@@ -23,11 +23,11 @@
    * [Great Ways To Use It](data/HowToUse.md)
    * [Analytics On Conversations](data/Analytics.md)
    * [Data Export](data/Export.md)
-* [Survey Research](surveyResearch/README.md)
-   * [Overview](surveyResearch/Overview.md)
-* [EDU](edu/README.md)
-   * [Overview](edu/Overview.md)
-   * [Methodology](edu/Methodology.md)
-   * [LMS](edu/LMS.md)
-   * [Configuration](edu/Configuration.md)
+<!--* [Survey Research](surveyResearch/README.md)-->
+<!--   * [Overview](surveyResearch/Overview.md)-->
+<!--* [EDU](edu/README.md)-->
+<!--   * [Overview](edu/Overview.md)-->
+<!--   * [Methodology](edu/Methodology.md)-->
+<!--   * [LMS](edu/LMS.md)-->
+<!--   * [Configuration](edu/Configuration.md)-->
 
