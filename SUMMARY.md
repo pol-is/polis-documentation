@@ -20,14 +20,7 @@
    * [The Math](visualization/TheMath.md)
 * [Data](data/README.md)
    * [What We Collect](data/WhatWeCollect.md)
-   * [Great Ways To Use It](data/HowToUse.md)
+   * [How To Use It](data/HowToUse.md)
    * [Analytics On Conversations](data/Analytics.md)
    * [Data Export](data/Export.md)
-<!--* [Survey Research](surveyResearch/README.md)-->
-<!--   * [Overview](surveyResearch/Overview.md)-->
-<!--* [EDU](edu/README.md)-->
-<!--   * [Overview](edu/Overview.md)-->
-<!--   * [Methodology](edu/Methodology.md)-->
-<!--   * [LMS](edu/LMS.md)-->
-<!--   * [Configuration](edu/Configuration.md)-->
 
