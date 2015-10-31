@@ -1,4 +1,8 @@
-# Polis - Table of Contents
+# About Polis
+
+Welcome! Here you'll find a consistently updated trove of knowledge about what Polis is and how to use it.
+
+### Table of Contents
 
 * **[Welcome](welcome/README.md)**
   * [Overview](welcome/Overview.md): What is Polis?
@@ -11,4 +15,14 @@
   * [User Authorization](usage/UserAuthorization.md): Learn the ins and outs of figuring out which users are which on Polis. Anonymous? Anonymous but not bots? Social login? Geographic bounds? Bring your own proprietary auth scheme? Link users to data you already have in your DB? Come check out what's possible!
   * [Embedding](usage/Embedding.md): Learn how to embed Polis on your site in seconds by dropping in a script tag
   * [Per User Config](usage/PerUserConfig): Learn how to allow only certain users to vote, write, etc. when embedding
-  * [Configuration Templates](usage/ConfigurationTemplates.md): Learn how to  
+  * [Configuration Templates](usage/ConfigurationTemplates.md): Learn how to save 'per user' settings in templates, e.g., isLoggedIn
+  * [Best Practices](usage/BestPractices.md): Learn tips and tricks for getting the most out of Polis
+* **[Visualization](visualization/README.md)**
+  * [How to Read](visualization/HowToRead.md): Learn what each little part of the visualization means, in detail
+  * [Who Gets Shown](visualization/WhoGetsShown.md): Learn how the Polis algorithm prioritizes who sees who in the visualization
+  * [The Math](visualization/TheMath.md): Learn about the statistical algorithms that produce the visualization
+* **[Data](data/README.md)**
+  * [What We Collect](data/WhatWeCollect.md): Learn what data we collect from your users
+  * [Great Ways to Use It](data/HowToUse.md): Learn powerful ways to use the data you collect
+  * [Analytics on Conversations](data/Analytics.md): Learn about participation rates, voting rates and more
+  * [Data Export](data/Export.md): Learn 
