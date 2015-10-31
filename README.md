@@ -12,7 +12,7 @@ Welcome! Here you'll find a consistently updated trove of knowledge about what P
 * **[Usage](usage/README.md)**
   * [Comment Moderation](usage/CommentModeration.md): Learn how to bonsai your conversations
   * [Seed Comments](usage/SeedComments.md): Learn how to add comments for users to vote on without participating yourself
-  * [User Authorization](usage/UserAuthorization.md): Learn the ins and outs of figuring out which users are which on Polis. Anonymous? Anonymous but not bots? Social login? Geographic bounds? Bring your own proprietary auth scheme? Link users to data you already have in your DB? Come check out what's possible!
+  * [User Authorization](usage/UserAuthorization.md): Learn the ins and outs of figuring out which users are which on Polis. Anonymous? Anonymous but anxious about bots? Social login? Geographic bounds? Have your own proprietary authorization scheme? Link users to data you already have in your DB? Come check out what's possible!
   * [Embedding](usage/Embedding.md): Learn how to embed Polis on your site in seconds by dropping in a script tag
   * [Per User Config](usage/PerUserConfig): Learn how to allow only certain users to vote, write, etc. when embedding
   * [Configuration Templates](usage/ConfigurationTemplates.md): Learn how to save 'per user' settings in templates, e.g., isLoggedIn
@@ -25,4 +25,4 @@ Welcome! Here you'll find a consistently updated trove of knowledge about what P
   * [What We Collect](data/WhatWeCollect.md): Learn what data we collect from your users
   * [Great Ways to Use It](data/HowToUse.md): Learn powerful ways to use the data you collect
   * [Analytics on Conversations](data/Analytics.md): Learn about participation rates, voting rates and more
-  * [Data Export](data/Export.md): Learn 
+  * [Data Export](data/Export.md): Learn how to download raw data from Polis and understand its schema
