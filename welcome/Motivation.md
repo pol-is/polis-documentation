@@ -8,3 +8,5 @@ Lorem ipsummm...
 
 * help crowds speak with one voice without centralizing power in an individual
 * 
+
+polarization
