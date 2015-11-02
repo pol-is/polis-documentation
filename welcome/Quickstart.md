@@ -9,5 +9,5 @@ You can have your first Polis conversation up and tweeted in less than a minute.
 5. Click create
 6. Paste the share link (it will look something like pol.is/55555) into an email, a tweet, etc.
 7. Go to your conversation, watch responses roll in, etc.
-8. **Important**: if you selected strict moderation mode (no comments shown without approval) make sure to moderate comments into the conversation! If you conversation is pol.is/55555, your admin console can be found at pol.is/**m**/55555. 
+8. **Important**: if you selected strict moderation mode (no comments shown without approval) make sure to moderate comments into the conversation! If you conversation is pol.is/55555, your admin console can be found at pol.is/**m**/55555.
 

@@ -12,6 +12,7 @@
    * [User Authorization](usage/UserAuthorization.md)
    * [Embedding](usage/Embedding.md)
    * [Per User Config](usage/PerUserConfig.md)
+   * [Events](usage/Events.md)
    * [Configuration Templates](usage/ConfigurationTemplates.md)
    * [Best Practices](usage/BestPractices.md)
 * [Visualization](visualization/README.md)

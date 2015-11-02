@@ -1,8 +1,13 @@
-Visualization: who gets shown
+# Who gets shown?
 
-The visualization is potentially different for every user. There is a hierarchy of who get shown in the visualization. First we show a user's Facebook friends provided that you have connected to Facebook. After that we should people with a verified twitter accounts, then the people with the highest Twitter follower Count, and after that we fill in with random accounts from Facebook.
+The visualization is potentially different for every user. There is a hierarchy of who get shown. Our algorithm follows the following priority:
 
-You can override this by featuring certain users in the admin panel, filtering people the same when you filter comments.
+1. Featured (if you've featured any participants)
+2. Facebook friends (provided the participant has connected Facebook)
+3. Participants with verified Twitter accounts
+4. Participants with the most Twitter followers
+5. Random Facebook accounts
 
-pol.is/m/5555555555 >> People >> Default
+The first priority are users you have decided to feature. To feature / remove users:
 
+`pol.is/m/5555555555 >> People >> Default`

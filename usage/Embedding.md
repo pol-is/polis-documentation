@@ -1,14 +1,21 @@
-Using polis on your site is as easy as dropping in a script tag. The biggest consideration is whether you want to use polis in a template system like Wordpress across your entire site, in which polis creates the conversations automatically based on the URL of the page they are embedded on, or drop it in here and there and create each conversation manually.
+# Embedding
 
-Creating each conversation manually:
+You can embed polis on your site or in your app the way you would a YouTube video or a comment system. The process is simple: add a script tag which loads an `<iframe/>` asynchronously.
 
-If you're going to create each conversation manually, click +new from the inbox and add your topic and description. Then grab the script tag and put it wherever you like on your site.
+There are two options: manually creating embedded conversations or having Polis create them automatically in your templates.
 
-Creating conversations automatically:
+#### Creating each conversation manually:
 
-Copy and paste this into the template for your pages (blog posts, news articles, etc)
+1. In the [inbox](https://pol.is/inbox), click [+new](https://pol.is/conversation/create)
+2. Give your conversation a topic and description (*default none*)
+3. Decide what flavor of [moderation](usage/CommentModeration.md) you'd like, lazy or strict (*default lazy*)
+4. Click create
+5. Copy out the script tag
+6. Paste it into the HTML of your site where you'd like the `<iframe/>` to appear.
 
-When this embed code loads on your website, it will either create a new conversation (if one doesn't already exist) or load an existing conversation. It keeps track of what conversations belongs on what pages via the data-page_id HTML attribute. Simply replace "PAGE_ID", either manually or in your templates, to create new conversations and load existing ones in the right place.
+#### Creating conversations automatically:
+
+Copy and paste this into a template (blog posts, news articles, etc).
 
 ```
 <div
@@ -18,3 +25,6 @@ When this embed code loads on your website, it will either create a new conversa
 </div>
 <script async="true" src="https://pol.is/embed.js"></script>
 ```
+
+When this embed code loads, it will either create a new conversation (if one doesn't already exist) or load an existing conversation. Your job is to replace `PAGE_ID` in your template. `PAGE_ID` is the lookup Polis uses to keep track of what conversations belongs on what page.
+

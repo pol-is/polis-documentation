@@ -1,1 +1,5 @@
-Right now, you have to do this manually every time. Templates are due in a future release of polis to make this process easier.
+# Templates
+
+Coming soon!
+
+Templates will reduce the pain of per-user config across multiple conversations.

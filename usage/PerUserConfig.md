@@ -1,6 +1,16 @@
+# Per User Config
+
+Each time Polis loads into an embedded context, you can *optionally* configure Polis at the user level to hide or show facets of the interface.
+
+#### Hiding the comment submit form
+
 The data-ucw (user can write) tag toggles writing, and is only relevant for that user for that session.
 
+#### Hiding voting interface
+
 The data-ucv (user can vote) tag toggles voting, and is only relevant for that user for that session.
+
+#### Hiding the visualization
 
 The data-show_vis causes the vis to be enabled or disabled when the conversation initializes. This is a one-time setting which is picked up and stored in our db the first time someone loads this script. If you later change this value, it won't have any effect. To change that value, you can load the config tab of the admin page for that conversation (the button for the conversation's admin page should appear in preprod.pol.is/inbox )
 
@@ -15,19 +25,4 @@ The data-show_vis causes the vis to be enabled or disabled when the conversation
 >
 </div>
 <script async="true" src="https://preprod.pol.is/embed.js"></script>
-```
-
-Also, I added code to emit a "vote" event each time a participant votes.
-You can subscribe to that like this:
-
-```
- window.addEventListener("message", function(event) {
-      var data = event.data||{};
-      if (!event.origin.match(/pol.is$/)) {
-        return;
-      }
-      if (data.name === "vote") {
-        alert("vote!");
-      }
-    });
 ```
