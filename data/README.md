@@ -1,7 +1,8 @@
 # Data
 
 * **[Data](data/README.md)**
-  * [What We Collect](data/WhatWeCollect.md): Learn what data we collect from your users
-  * [Great Ways to Use It](data/HowToUse.md): Learn powerful ways to use the data you collect
+  * [What We Compute](data/WhatWeCompute.md): Learn what data we compute from your users
   * [Analytics on Conversations](data/Analytics.md): Learn about participation rates, voting rates and more
   * [Data Export](data/Export.md): Learn how to download raw data from Polis and understand its schema
+  * [Data Export API](data/ExportAPI.md): Programatically access exported data
+  * [Great Ways to Use Data Export](data/HowToUse.md): Learn powerful ways to use the data you collect
