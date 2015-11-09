@@ -6,21 +6,19 @@ All of the options available for data export via the UI is also available via ou
 For most exports, only a single endpoint is required.
 This endpoint is structured like so:
 
-[@mike: Does this URL look vaguely right to you?]
-
 ```
-https://pol.is/api/v3/export/get?zinvit=<your-zinvite>
+https://pol.is/api/v3/dataExport?conversation_id=<your-conversation_id>
 ```
 
-If your conversation has the URL `https://pol.is/7xyzqp`, `<your-zinvite>` would be `7xyzqp`.
+If your conversation has the URL `https://pol.is/7xyzqp`, `<your-conversation_id>` would be `7xyzqp`.
 
 Additional available query parameters:
 
 | Param | Example | Description
 | ----- | ------- | -----------
-| `format` | GET `https://pol.is/api/v3/export/get?zinvite=7xyzqp&format=csv` | Exports data in separate CSV files, gathered in a `.zip` archive. Alternate option `xlsx` produces an Excel file as a response.
-| `email` | GET `https://pol.is/api/v3/export/get?zinvite=7xyzqp&email=abc@foo.com` | Exports the data and send an email notification to the given email when complete.
-| `at-date` | GET `https://pol.is/api/v3/export/get?zinvite=7xyzqp&at-date=23434333` | Exports the data recomputed at time 23434333, as a number of ms since epoch. *
+| `format` | GET `https://pol.is/api/v3/dataExport?conversation_id=7xyzqp&format=csv` | Exports data in separate CSV files, gathered in a `.zip` archive. Alternate option `excel` produces an Excel file as a response.
+| `email` | GET `https://pol.is/api/v3/dataExport?conversation_id=7xyzqp&email=abc@foo.com` | Exports the data and send an email notification to the given email when complete.
+| `at-date` | GET `https://pol.is/api/v3/dataExport?conversation_id=7xyzqp&at-date=23434333` | Exports the data recomputed at time 23434333, as a number of ms since epoch. *
 
 [\*] Note this computation isn't necessarily exactly what was seen at that point in the pol.is conversations.
 Due to the nature of the analyses used, it is difficult to recompute the conversation "exactly" as it was at a given point in time.
@@ -37,17 +35,14 @@ In the `Location` header of this response will be a URL pointing to a status lin
 This status link should look like:
 
 ```
-https://pol.is/api/v3/export/status?filename=<somelongfilename>&zinvite=7xyzqp XXX
+https://pol.is/api/v3/dataExport/status?conversation_id=7xyzqp&filename=<somelongfilename>
 ```
-
-Note that the (`zinvite`, `filename`) pair is required as an authorization measure.
-Once authenticated as a user, (XXX @mike), authorization on `zinvite` is required, which in turn conveys authorization to the given export `filename`, which is the real key to the exported data's status and eventual result.
 
 When a GET request is made to the status URL, it will return 200 if the data is not ready yet, and 201 when it is ready.
 In the case of a 201, the `Location` header will contain a download URL, keyed similarly to the status URL, but with a different path:
 
 ```
-https://pol.is/api/v3/export/results?filename=<somelongfilename>&zinvite=7xyzqp XXX
+https://pol.is/api/v3/dataExport/results?conversation_id=7xyzqp&filename=<somelongfilename>
 ```
 
 This link will return a response with the export file as body.
