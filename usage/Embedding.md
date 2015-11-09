@@ -26,5 +26,7 @@ Copy and paste this into a template (blog posts, news articles, etc).
 <script async="true" src="https://pol.is/embed.js"></script>
 ```
 
-When this embed code loads, it will either create a new conversation (if one doesn't already exist) or load an existing conversation. Your job is to replace `PAGE_ID` in your template. `PAGE_ID` is the lookup Polis uses to keep track of what conversations belongs on what page.
+When this embed code loads, it will either create a new conversation (if one doesn't already exist) or load an existing conversation.
+Your job is to replace `PAGE_ID` in your template.
+`PAGE_ID` is the lookup Polis uses to keep track of what conversations belongs on what page.
 

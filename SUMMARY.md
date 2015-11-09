@@ -6,6 +6,7 @@
    * [Motivation](welcome/Motivation.md)
    * [Quickstart](welcome/Quickstart.md)
    * [Default Settings](welcome/DefaultSettings.md)
+   * [Getting in Touch](welcome/GettingInTouch.md)
 * [Usage](usage/README.md)
    * [Comment Moderation](usage/CommentModeration.md)
    * [Seed Comments](usage/SeedComments.md)

@@ -17,6 +17,7 @@ The visualization in Polis has three purposes:
 * Groups of participants have a dotted line around them - these groups can be clicked on
 * Groups form because members voted similarly on multiple issues, not just one issue
 
+
 When you click on a group, a carousel of comments will appear. These comments that tended to differentiate the group from other groups. Specifically, these are comments that people *inside* the group voted similarly on, while people *outside* the group voted differently on.
 
 As you swipe through the carousel, you will see the visualization change. Each person assumes a green, red or grey halo, depending on whether they agreed, disagreed or passed on the comment presently in the carousel.
