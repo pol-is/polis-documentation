@@ -21,8 +21,8 @@
    * [Who Gets Shown](visualization/WhoGetsShown.md)
    * [The Math](visualization/TheMath.md)
 * [Data](data/README.md)
-   * [What We Collect](data/WhatWeCollect.md)
-   * [How To Use It](data/HowToUse.md)
-   * [Conversation Analytics](data/Analytics.md)
+   * [What We Compute](data/WhatWeCompute.md)
+   * [Analytics on Conversations](data/Analytics.md)
    * [Data Export](data/Export.md)
-
+   * [Data Export API](data/ExportAPI.md)
+   * [Great Ways to Use Data Export](data/HowToUse.md)
