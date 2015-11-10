@@ -1,3 +1,6 @@
+polis was built in the interest of peace. how it could be said that this is true depends on our outlook on information.
+
+
 # Motivation
 
 Polis was conceived during the Arab Spring and Occupy Wall Street. Both movements were decentralized and emergent. Twitter and Facebook proved instrumental in, mobilizing citizens, garnering media attention and disseminating information. They were not successful at producing coherence.
