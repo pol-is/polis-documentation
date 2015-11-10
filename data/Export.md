@@ -9,11 +9,11 @@ If you would like to export data programmatically, please see the [Data Export A
 
 ## How to export your data
 
-[@mike; you'll have to revise this once the UI is actually set up]
+Data can be exported from the admin page for a conversation.
 
-When on the page for a conversation you would like to export, click the "Export Data" button.
-You will be taken to a page with options for the data export.
-The options available are "Export Time" and "Format". [@mike: Should we expose the email notification option? edge case really...]
+`pol.is/m/55555 >> Export`
+
+There are a few options you can set when triggering an export.
 
 ### Format
 
@@ -35,7 +35,7 @@ If you need exact exports at various points in the conversation evolution, we re
 ### Long running exports
 
 For larger scale conversations, exports may take a long time to compute (particularly when Export Time is specified, as this requires a recompute of the conversation state).
-When the export takes longer than [@mike: how many seconds?], we will notify you that the export is processing but can not be returned immediately.
+When the export takes longer than several seconds, we will notify you that the export is processing but can not be returned immediately.
 In this case, an email will be sent to the email address we have on file.
 
 
@@ -103,8 +103,7 @@ The following columns are included:
 
 Additionally, for every comment in the conversation, there is a column with that comment's ID as the column name.
 For a given participant row and comment column, the entry in this table represents the vote that participant gave on that column.
-[@mike: Dear lord, is it too late to fix this?]
-A vote of -1 represents agree [should be disagree], a vote of 1 represents disagree, and a vote of 0 represents a pass.
+A vote of 1 represents agree, a vote of -1 represents disagree, and a vote of 0 represents a pass.
 If a participant did not vote or pass on the given comment, the corresponding entry is blank.
 
 In the future, we may add a column indicating whether the participant was included as "In conversation" or not (as described above).
