@@ -26,5 +26,4 @@ Welcome! Here you'll find a consistently updated trove of knowledge about what P
   * [What We Compute](data/WhatWeCompute.md): Learn what data we collect from your users
   * [Analytics on Conversations](data/Analytics.md): Learn about participation rates, voting rates and more
   * [Data Export](data/Export.md): Learn how to download raw data from Polis and understand its schema
-  * [Data Export API](data/ExportAPI.md): Learn how to use the HTTPS API to download raw data from Polis.
   * [Great Ways to Use Data Export](data/HowToUse.md): Learn powerful ways to use the data you collect
