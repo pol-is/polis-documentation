@@ -1,6 +1,6 @@
-# About Polis
+# docs.pol.is
 
-Welcome! Here you'll find a consistently updated trove of knowledge about what Polis is and how to use it.
+Welcome! Documentation on pol.is:
 
 ### Table of Contents
 
