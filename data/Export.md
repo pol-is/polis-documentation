@@ -4,7 +4,6 @@ Data export allows you to maximize the value of your pol.is conversation data.
 See [How to Use](data/HowToUse.md) for some ideas about how you might want to use your data exports.
 
 This chapter covers the data you can export, and the process of exporting data through our web interface.
-If you would like to export data programmatically, please see the [Data Export API](data/ExportAPI.md) section.
 
 
 ## How to export your data

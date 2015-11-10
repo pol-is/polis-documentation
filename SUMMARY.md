@@ -24,5 +24,4 @@
    * [What We Compute](data/WhatWeCompute.md)
    * [Analytics on Conversations](data/Analytics.md)
    * [Data Export](data/Export.md)
-   * [Data Export API](data/ExportAPI.md)
    * [Great Ways to Use Data Export](data/HowToUse.md)
