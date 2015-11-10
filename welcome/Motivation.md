@@ -32,4 +32,4 @@ We wanted to avoid the echo chamber effect of social networks, in which people o
 That meant creating a system that could simultaneously be embedded on content sites and be shared freely through different social networks via links.
 
 We want to create order, satisfaction and efficiency with unintuitive information design and architecture.
-We want to provide transparency, and decentralize power generally, in all kinds of large organizations of people everywhere on Earth.
+We want to provide transparency and insight, and decentralize power generally, in all kinds of large organizations of people everywhere on Earth.
