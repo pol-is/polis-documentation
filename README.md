@@ -1,7 +1,5 @@
 # docs.pol.is
 
-Welcome! Documentation on pol.is:
-
 ### Table of Contents
 
 * **[Welcome](welcome/README.md)**
