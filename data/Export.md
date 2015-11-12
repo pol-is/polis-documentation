@@ -46,7 +46,7 @@ If CSV formatting is selected, the zip file will contain `summary.csv`, `stats-h
 
 Note that the data export schema is still considered to be in BETA, and may change in the future.
 Once it has stabilized, we will issue an announcement.
-In the mean time, if you would like to be notified ahead of changes, please [contact us](contact@pol.is). [XXX does this email address exist?]
+In the mean time, if you would like to be notified ahead of changes, [follow us on Twitter](https://twitter.com/usepolis)
 
 ### Summary
 
