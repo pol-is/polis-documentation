@@ -18,7 +18,7 @@ For instance, if there are 4 groups, try correlating the members of each group w
 You can now start to see how the data you have about users correlates with the results of the conversation.
 
 We're interested in weaving some of these features more directly into pol.is PLUS in the near future.
-If there's something you'd like to see, and/or if you're interested in getting early access to the features we're building, please [Contact US](contact@pol.is).
+If there's something you'd like to see, and/or if you're interested in getting early access to the features we're building, please [contact us](mailto:contact@pol.is).
 
 
 
