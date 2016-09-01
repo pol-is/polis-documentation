@@ -1,6 +1,6 @@
 # Welcome
 
-* **[Welcome](welcome/README.md)**
+* **[Welcome](./README.md)**
   * [Overview](./Overview.md): What is Polis?
   * [Motivation](./Motivation.md): Why Polis?
   * [Quickstart](./Quickstart.md): Get up and running in minutes

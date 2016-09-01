@@ -1,7 +1,7 @@
 # Data Export
 
 Data export allows you to maximize the value of your pol.is conversation data.
-See [How to Use](data/HowToUse.md) for some ideas about how you might want to use your data exports.
+See [How to Use](./HowToUse.md) for some ideas about how you might want to use your data exports.
 
 This chapter covers the data you can export, and the process of exporting data through our web interface.
 
@@ -29,7 +29,7 @@ If you would alternatively like to export the state of a conversation at a speci
 
 Note: This export has to be recomputed, and due to the nature of the algorithms pol.is employs, guaranteeing results are exactly as seen at the given point in time is not currently possible.
 However, the results should be pretty close.
-If you need exact exports at various points in the conversation evolution, we recommend you periodically create updates based on the live data, either programmatically via [our API](data/ExportAPI.md) or manually.
+If you need exact exports at various points in the conversation evolution, we recommend you periodically create updates based on the live data, either programmatically via [our API](./ExportAPI.md) or manually.
 
 ### Long running exports
 
