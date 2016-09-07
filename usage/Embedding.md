@@ -8,7 +8,7 @@ There are two options: manually creating embedded conversations or having Polis 
 
 1. In the [inbox](https://pol.is/inbox), click [+new](https://pol.is/conversation/create)
 2. Give your conversation a topic and description (*default none*)
-3. Decide what flavor of [moderation](usage/CommentModeration.md) you'd like, lazy or strict (*default lazy*)
+3. Decide what flavor of [moderation](./CommentModeration.md) you'd like, lazy or strict (*default lazy*)
 4. Click create
 5. Copy out the script tag
 6. Paste it into the HTML of your site where you'd like the `<iframe/>` to appear.

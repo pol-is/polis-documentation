@@ -50,7 +50,7 @@ This scenario is ideal if you need to ensure that users are not gaming the syste
 
 This scenario is only available if the Polis conversation is instantitaed through an embedded `<iframe/>` on your page.
 You'll decide whether or not the user is verified.
-You can then use the [per user config](usage/PerUserConfig) data attributes to customize the experience at will.
+You can then use the [per user config](./PerUserConfig.html) data attributes to customize the experience at will.
 A nice pattern is to shut off writing and voting for those not logged in, so that users who are not logged in can still consume a read-only version of the conversation by clicking through the visualization.
 
 `data-user-image-url=""`
