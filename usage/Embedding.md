@@ -30,3 +30,28 @@ When this embed code loads, it will either create a new conversation (if one doe
 Your job is to replace `PAGE_ID` in your template.
 `PAGE_ID` is the lookup Polis uses to keep track of what conversations belongs on what page.
 
+
+#### Optional fields:
+These config variables will be used to init the conversation.
+Subsequent loads will not update to these values in our DB.
+To change the values after the conversation is created, go to the config tab of ```https://pol.is/m/<conversation_id>```
+```
+
+  data-topic="The End of American Football?"
+  
+  data-auth_needed_to_vote="false" // default false
+  
+  data-auth_needed_to_write="true" // default true
+  
+  // Prompt users to auth using Facebook.
+  data-auth_opt_fb="true" // default true
+  
+  // Prompt users to auth using Twitter.
+  data-auth_opt_tw="true" // default true
+  
+  // This is here in case we add other auth providers (Google, etc), you can preemptively disable them by setting this to false.
+  // Example: if auth_opt_fb is true, but auth_opt_allow_3rdparty is false, users will not be prompted to auth using Facebook.
+  data-auth_opt_allow_3rdparty="true" // default true
+  
+```
+Additional config variables can be set here: [https://docs.pol.is/usage/PerUserConfig.html](https://docs.pol.is/usage/PerUserConfig.html)
