@@ -2,7 +2,7 @@
 
 You can have your first Polis conversation up and tweeted in less than a minute. Here's how.
 
-1. [Create an account](https://pol.is/user/login)
+1. [Create an account](https://pol.is/createuser)
 2. In the [inbox](https://pol.is/inbox), click [+new](https://pol.is/conversation/create)
 3. Give your conversation a topic and description
 4. Decide what flavor of [moderation](../usage/CommentModeration.md) you'd like, lazy or strict
