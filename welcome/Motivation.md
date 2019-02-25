@@ -26,10 +26,10 @@ For instance, maybe some users will find it enjoyable to compare comments to see
 We wanted to produce lots of usable data.
 We wanted to avoid natural language processing, because it's flaky, and also because we wanted internationalization out of the box.
 We wanted to show people as grouped with those who felt similarly, because it's satisfying and validating to find your tribe.
-We wanted to firmly restrict the power of individuals to ruintake down a conversation with bad behavior.
+We wanted to firmly restrict the power of individuals to ruin or take down a conversation with bad behavior.
 
 We wanted to avoid the echo chamber effect of social networks, in which people only talk to people they already agree with.
 That meant creating a system that could simultaneously be embedded on content sites and be shared freely through different social networks via links.
 
-We want to create order, satisfaction and efficiency with unintuitive information design and architecture.
+We want to create order, satisfaction and efficiency with intuitive information design and architecture.
 We want to provide transparency and insight, and decentralize power generally, in all kinds of large organizations of people everywhere on Earth.
