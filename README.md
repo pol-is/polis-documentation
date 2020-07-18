@@ -1,3 +1,7 @@
+## NOTE: This project has been archived in favor of a new roam database at https://roamresearch.com/#/app/polis-methods/
+
+
+
 # docs.pol.is
 
 ### Table of Contents
