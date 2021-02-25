@@ -1,4 +1,6 @@
-## NOTE: This project has been archived in favor of a new roam database at https://pol.is/about
+## NOTE: This project has been archived in favor of a new roam database at https://compdemocracy.org
+
+<br/>
 
 
 # docs.pol.is
